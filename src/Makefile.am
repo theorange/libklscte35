@@ -11,7 +11,7 @@ libklscte35_la_SOURCES += crc32.h
 libklscte35_la_SOURCES += klbitstream_readwriter.h
 
 libklscte35_la_CFLAGS = -Wall -DVERSION=\"$(VERSION)\" -DPROG="\"$(PACKAGE)\"" \
-	-D_FILE_OFFSET_BITS=64 -O3 --std=c99 -D_DEFAULT_SOURCE \
+	-D_FILE_OFFSET_BITS=64 -O3 --std=c99 -D_BSD_SOURCE -D_DEFAULT_SOURCE \
 	-DKL_USERSPACE
 
 if DEBUG
