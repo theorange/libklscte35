@@ -14,6 +14,7 @@ config.log
 config.status
 config.sub
 configure
+configure~
 depcomp
 install-sh
 libtool
@@ -24,3 +25,7 @@ libklscte35.la
 src/libklscte35.la
 src/libklscte35_la-*.lo
 doxygen/html
+*.rpm
+*.swo
+*.swp
+tags
